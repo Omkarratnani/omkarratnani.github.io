@@ -660,7 +660,9 @@ footer a:hover { opacity: 0.7; }
     <li><a href="#projects">Projects</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#achievements">Awards</a></li>
+    <li><a href="#certifications">Certs</a></li>
     <li><a href="#resume">Resume</a></li>
+    <li><a href="#game-section" style="color:var(--accent)">🪲 Game</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <button class="hamburger" id="hamburger" aria-label="Toggle menu">
@@ -674,7 +676,9 @@ footer a:hover { opacity: 0.7; }
   <a href="#projects"     onclick="closeMenu()">Projects</a>
   <a href="#skills"       onclick="closeMenu()">Skills</a>
   <a href="#achievements" onclick="closeMenu()">Awards</a>
+  <a href="#certifications" onclick="closeMenu()">Certs</a>
   <a href="#resume"       onclick="closeMenu()">Resume</a>
+  <a href="#game-section" onclick="closeMenu()" style="color:var(--accent)">🪲 Game</a>
   <a href="#contact"      onclick="closeMenu()">Contact</a>
 </div>
 
@@ -716,11 +720,6 @@ footer a:hover { opacity: 0.7; }
         <div class="stat-num">92%</div>
         <div class="stat-label">AI Accuracy</div>
       </div>
-      <div class="stat-divider"></div>
-      <div class="stat-item">
-        <div class="stat-num">600+</div>
-        <div class="stat-label">Teams Beaten</div>
-      </div>
     </div>
   </div>
 </section>
@@ -733,12 +732,12 @@ footer a:hover { opacity: 0.7; }
         <p class="section-label">About Me</p>
         <h2>Builder. Tinkerer.<br>Problem solver.</h2>
         <p>I'm a 3rd-year B.Tech Computer Science student at <strong>SRM Institute of Science and Technology</strong>, Chennai, passionate about building systems that make a real difference.</p>
-        <p>My work spans full-stack web development, AI/ML engineering, and IoT — I've shipped everything from production CRM platforms and real-time dashboards to a drone that detects landmines with 92% accuracy.</p>
-        <p>I'm also the founder of <strong>ComputerBaazi</strong>, a platform making affordable electronics accessible, and I've led community STEM outreach recognized by law enforcement.</p>
+        <p>My work spans full-stack web development, AI/ML engineering, and embedded systems — from deploying generative AI at a steel plant to building a drone that detects landmines with 92% accuracy.</p>
+        <p>I'm also the founder of <strong>ComputerBaazi</strong>, an MSM-registered startup selling refurbished electronics — making quality tech affordable and accessible across India.</p>
         <div class="about-tags">
           <span class="tag">SRMIST Chennai</span>
           <span class="tag">CSE 2023–2027</span>
-          <span class="tag">CGPA 7.5</span>
+          <span class="tag">CGPA 7.02</span>
           <span class="tag">SAP ABAP Certified</span>
         </div>
       </div>
@@ -747,7 +746,7 @@ footer a:hover { opacity: 0.7; }
           <div class="about-card-icon">🎓</div>
           <div>
             <div class="about-card-title">SRM Institute of Science &amp; Technology</div>
-            <div class="about-card-sub">B.Tech Computer Science · 2023–2027</div>
+            <div class="about-card-sub">B.Tech Computer Science · 2023–2027 · CGPA 7.02</div>
           </div>
         </div>
         <div class="about-card-item">
@@ -761,7 +760,7 @@ footer a:hover { opacity: 0.7; }
           <div class="about-card-icon">🚀</div>
           <div>
             <div class="about-card-title">ComputerBaazi</div>
-            <div class="about-card-sub">Founder &amp; Technical Lead · 2022–Present</div>
+            <div class="about-card-sub">MSM-Registered Startup · Founder · 2022–Present</div>
           </div>
         </div>
         <div class="about-card-item">
@@ -792,9 +791,9 @@ footer a:hover { opacity: 0.7; }
           <div class="timeline-date">Jun 2025 – Jul 2025</div>
         </div>
         <ul class="timeline-desc" style="padding-left:1.2rem">
-          <li>Built multivariate ML forecasting pipelines across 25+ industrial parameters and 300+ operational cycles.</li>
-          <li>Architected real-time dashboards (React.js + Grafana) processing 40,000+ IoT records/day with sub-second refresh.</li>
-          <li>Reduced energy consumption by 8–12% and machine idle time by 15% through predictive ML models.</li>
+          <li>Developed and deployed an AI/ML system to optimise ferro alloy consumption (FeMn, SiMn, FeSi) in the ladle furnace process at Steel Melting Shop-3, reducing alloy costs by over 20% during trial heats.</li>
+          <li>Built a hybrid ML pipeline combining Random Forest, XGBoost, CatBoost, and transformer-based generative AI embeddings to predict and control alloy additions from SCADA, historian, and lab data.</li>
+          <li>Delivered a real-time web dashboard for metallurgists to input live process data, receive optimised alloy recommendations, and monitor historical trends — setting a benchmark for Industry 4.0 at BSP.</li>
         </ul>
       </div>
       <div class="timeline-item">
@@ -807,9 +806,9 @@ footer a:hover { opacity: 0.7; }
           <div class="timeline-date">2022 – Present</div>
         </div>
         <ul class="timeline-desc" style="padding-left:1.2rem">
-          <li>Architected full-stack SaaS CRM (React.js + NestJS) handling 12K+ customer interactions with predictive scoring.</li>
-          <li>Built real-time IoT telemetry pipelines streaming 50K+ records/day, containerised with Docker.</li>
-          <li>Integrated LLM features using OpenAI APIs and RAG; raised conversion by 18%.</li>
+          <li>Founded an MSM-registered startup selling refurbished electronics — making quality tech affordable and accessible across India.</li>
+          <li>Built and deployed a full-stack SaaS CRM (React.js + NestJS) to manage 12K+ customer interactions, with AI-driven pricing recommendations and predictive demand scoring.</li>
+          <li>Integrated LLM-powered features using OpenAI APIs and RAG for personalised customer support and product recommendations; raised conversion by 18%.</li>
         </ul>
       </div>
       <div class="timeline-item">
@@ -1014,6 +1013,89 @@ footer a:hover { opacity: 0.7; }
   </div>
 </section>
 
+<!-- CERTIFICATIONS -->
+<section id="certifications" style="background:var(--bg2)">
+  <div class="container fade-up">
+    <p class="section-label">Certifications</p>
+    <h2>Licences &amp; credentials</h2>
+    <div class="achievements-grid">
+
+      <a href="https://www.linkedin.com/learning/certificates/" target="_blank" rel="noopener" style="text-decoration:none">
+        <div class="achievement-card" style="cursor:pointer;transition:all .3s">
+          <div style="width:40px;height:40px;border-radius:8px;background:#ff7a59;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:20px;font-weight:900;color:#fff;font-family:system-ui">A</div>
+          <div>
+            <div class="achievement-title">Sales Management</div>
+            <div class="achievement-sub">HubSpot Academy · Issued Sep 2023 · Expires Oct 2029</div>
+            <div style="font-size:0.72rem;color:var(--accent);margin-top:4px;font-weight:500">Show credential ↗</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://www.linkedin.com/learning/certificates/" target="_blank" rel="noopener" style="text-decoration:none">
+        <div class="achievement-card" style="cursor:pointer;transition:all .3s">
+          <div style="width:40px;height:40px;border-radius:8px;background:#ff7a59;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:20px;font-weight:900;color:#fff;font-family:system-ui">A</div>
+          <div>
+            <div class="achievement-title">Frictionless Sales</div>
+            <div class="achievement-sub">HubSpot Academy · Issued Aug 2023 · Expires Sep 2032</div>
+            <div style="font-size:0.72rem;color:var(--accent);margin-top:4px;font-weight:500">Show credential ↗</div>
+          </div>
+        </div>
+      </a>
+
+      <div class="achievement-card">
+        <div style="width:40px;height:40px;border-radius:8px;background:#0078d4;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px">🎖️</div>
+        <div>
+          <div class="achievement-title">SAP Certified ABAP Cloud Developer</div>
+          <div class="achievement-sub">SAP · Professional certification</div>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div style="width:40px;height:40px;border-radius:8px;background:#4285f4;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px">☁️</div>
+        <div>
+          <div class="achievement-title">Google Cloud Skill Badges</div>
+          <div class="achievement-sub">GDG Cloud Chennai · Kubernetes, BigQuery, Cloud Functions</div>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div style="width:40px;height:40px;border-radius:8px;background:#0056d3;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px">🎓</div>
+        <div>
+          <div class="achievement-title">Arduino Programming</div>
+          <div class="achievement-sub">Coursera · Udemy — Complete Arduino Course for Beginners</div>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div style="width:40px;height:40px;border-radius:8px;background:#0056d3;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px">📡</div>
+        <div>
+          <div class="achievement-title">Internet of Things (IoT)</div>
+          <div class="achievement-sub">Coursera · IoT Internet of Things Crash Course</div>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div style="width:40px;height:40px;border-radius:8px;background:#0056d3;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px">🐍</div>
+        <div>
+          <div class="achievement-title">Programming for Everybody (Python)</div>
+          <div class="achievement-sub">University of Michigan · Coursera</div>
+        </div>
+      </div>
+
+      <div class="achievement-card">
+        <div style="width:40px;height:40px;border-radius:8px;background:#333;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:18px">🐙</div>
+        <div>
+          <div class="achievement-title">Git &amp; GitHub</div>
+          <div class="achievement-sub">Coursera · Version control &amp; collaboration</div>
+        </div>
+      </div>
+
+    </div>
+    <p style="margin-top:1.5rem;font-size:0.82rem;color:var(--muted)">
+    </p>
+  </div>
+</section>
+
 <!-- RESUME -->
 <section id="resume">
   <div class="container fade-up">
@@ -1032,6 +1114,73 @@ footer a:hover { opacity: 0.7; }
           <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7,10 12,15 17,10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
           Download PDF
         </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GAME SECTION -->
+<section id="game-section" style="padding:6rem 4rem;background:#0a0a0f;">
+  <div class="container fade-up">
+    <p class="section-label">Mini Game</p>
+    <h2>You've come this far...<br><span style="font-size:0.6em;color:var(--muted);font-weight:400">take a break. squash some bugs.</span></h2>
+    <p style="color:var(--muted);margin-bottom:2rem;font-size:1.05rem;max-width:540px">Each cockroach is hiding one of my skills. Catch them all before they escape — or time runs out. Miss 3 and it's game over.</p>
+
+    <div id="game" style="width:100%;height:600px;background:#0d0d0d;border-radius:16px;position:relative;overflow:hidden;font-family:system-ui,sans-serif;user-select:none">
+      <style>
+      #game .bug{position:absolute;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10;line-height:1;font-size:28px}
+      #game .bug:hover{filter:brightness(1.3)}
+      #game .squash-fx{position:absolute;pointer-events:none;z-index:15;animation:sqAnim .5s ease-out forwards;transform:translate(-50%,-50%);font-size:32px}
+      @keyframes sqAnim{0%{transform:translate(-50%,-50%) scale(.3);opacity:1}40%{transform:translate(-50%,-50%) scale(2);opacity:1}100%{transform:translate(-50%,-50%) scale(2.8);opacity:0}}
+      #game .miss-flash{position:absolute;inset:0;background:rgba(220,50,50,.28);pointer-events:none;z-index:25;animation:mfAnim .35s ease-out forwards}
+      @keyframes mfAnim{from{opacity:1}to{opacity:0}}
+      #game .skill-pop{position:absolute;pointer-events:none;z-index:20;animation:spAnim .9s cubic-bezier(.34,1.56,.64,1) forwards;transform:translate(-50%,-50%)}
+      @keyframes spAnim{0%{opacity:0;transform:translate(-50%,-50%) scale(.4)}40%{opacity:1;transform:translate(-50%,-130%) scale(1)}100%{opacity:0;transform:translate(-50%,-220%) scale(.85)}}
+      #game .skill-pop-inner{background:rgba(8,8,24,.95);border:1px solid;border-radius:10px;padding:8px 14px;text-align:center;white-space:nowrap}
+      #game .float-txt{position:absolute;pointer-events:none;z-index:22;animation:ftAnim 1.1s ease-out forwards;font-size:13px;font-weight:800;transform:translateX(-50%)}
+      @keyframes ftAnim{from{opacity:1;transform:translateX(-50%) translateY(0)}to{opacity:0;transform:translateX(-50%) translateY(-55px)}}
+      #game .ripple-ring{position:absolute;border-radius:50%;border:2px solid;pointer-events:none;animation:rrAnim .7s ease-out forwards;transform:translate(-50%,-50%)}
+      @keyframes rrAnim{from{width:16px;height:16px;opacity:.9}to{width:110px;height:110px;opacity:0}}
+      #game #g-hud{position:absolute;top:0;left:0;right:0;height:50px;background:rgba(0,0,0,.75);border-bottom:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:space-between;padding:0 20px;z-index:20}
+      #game .g-label{font-size:11px;color:rgba(255,255,255,.35);text-transform:uppercase;letter-spacing:.08em}
+      #game .g-val{font-size:16px;font-weight:800;color:#fff}
+      #game #g-lives{display:flex;gap:4px}
+      #game .g-life{font-size:18px;transition:all .3s}
+      #game .g-life.dead{opacity:.15;transform:scale(.7)}
+      #game #g-tbar-wrap{position:relative;width:80px;height:24px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden}
+      #game #g-tbar{position:absolute;left:0;top:0;bottom:0;background:#6ee7c0;transition:width .15s linear}
+      #game #g-ttxt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:11px;color:rgba(255,255,255,.5);font-weight:600}
+      #game #g-floor{position:absolute;inset:50px 0 56px 0}
+      #game canvas#g-cracks{position:absolute;inset:50px 0 56px 0;pointer-events:none;z-index:12}
+      #game #g-tray{position:absolute;bottom:0;left:0;right:0;height:56px;background:rgba(0,0,0,.8);border-top:1px solid rgba(255,255,255,.06);padding:0 16px;display:flex;align-items:center;gap:8px;flex-wrap:nowrap;overflow:hidden;z-index:20}
+      #game .g-badge{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:100px;border:1px solid;font-size:11px;font-weight:700;flex-shrink:0;animation:bdIn .4s cubic-bezier(.34,1.56,.64,1)}
+      @keyframes bdIn{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+      #game #g-combo{position:absolute;top:58px;left:50%;transform:translateX(-50%);font-size:13px;font-weight:800;color:#fbbf24;opacity:0;transition:opacity .3s;z-index:30;pointer-events:none;text-shadow:0 0 16px #fbbf2488;white-space:nowrap}
+      #game #g-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:50;background:rgba(0,0,0,.9);padding:20px;text-align:center}
+      #game #g-overlay h3{font-size:24px;font-weight:900;color:#fff;margin:10px 0 6px}
+      #game .g-score-big{font-size:52px;font-weight:900;color:#6ee7c0;margin:4px 0 10px}
+      #game .g-start-btn{padding:13px 36px;background:#6ee7c0;color:#050510;font-size:15px;font-weight:800;border:none;border-radius:10px;cursor:pointer;transition:transform .2s;margin-top:6px}
+      #game .g-start-btn:hover{transform:scale(1.05)}
+      #game .g-final-skills{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:16px;max-width:360px}
+      </style>
+
+      <div id="g-hud">
+        <div style="display:flex;align-items:center;gap:8px"><span class="g-label">score</span><span class="g-val" id="g-score">0</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><span class="g-val" id="g-squashed">0</span><span class="g-label">/ 12 bugs</span></div>
+        <div style="display:flex;align-items:center;gap:8px"><span class="g-label">lives</span><div id="g-lives"><span class="g-life">🫀</span><span class="g-life">🫀</span><span class="g-life">🫀</span></div></div>
+        <div id="g-tbar-wrap"><div id="g-tbar" style="width:100%"></div><span id="g-ttxt">—</span></div>
+      </div>
+
+      <canvas id="g-cracks"></canvas>
+      <div id="g-floor"></div>
+      <div id="g-combo"></div>
+      <div id="g-tray"><span style="font-size:11px;color:rgba(255,255,255,.2);font-style:italic" id="g-tray-hint">squash bugs to unlock skills...</span></div>
+
+      <div id="g-overlay">
+        <div style="font-size:60px">🪲</div>
+        <h3>Catch the Bug!</h3>
+        <p style="font-size:13px;color:rgba(255,255,255,.45);max-width:300px;line-height:1.6;margin-bottom:20px">Click cockroaches before they escape. Each one hides one of my skills. Miss 3 = game over. You have 60 seconds.</p>
+        <button class="g-start-btn" id="g-startbtn">Release the bugs 🚀</button>
       </div>
     </div>
   </div>
@@ -1175,6 +1324,187 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
 }, { threshold: 0.08 });
 document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+/* ── CATCH THE BUG GAME ── */
+(function(){
+const SKILLS=[
+  {name:'Python',icon:'🐍',color:'#3572A5',fact:'AI & ML backbone'},
+  {name:'React.js',icon:'⚛️',color:'#61DAFB',fact:'Real-time dashboards'},
+  {name:'GoLang',icon:'🐹',color:'#00ADD8',fact:'High-concurrency APIs'},
+  {name:'YOLO',icon:'🎯',color:'#FF6B6B',fact:'92% drone accuracy'},
+  {name:'Docker',icon:'🐳',color:'#2496ED',fact:'Everything ships in it'},
+  {name:'PyTorch',icon:'🔥',color:'#EE4C2C',fact:'Neural net pruning'},
+  {name:'ESP32',icon:'📡',color:'#6ee7c0',fact:'Medical-grade IoT'},
+  {name:'Arduino',icon:'🔧',color:'#00979D',fact:'Since school 2019'},
+  {name:'PostgreSQL',icon:'🐘',color:'#336791',fact:'Industrial time-series'},
+  {name:'Next.js',icon:'▲',color:'#a78bfa',fact:'SSR storefronts'},
+  {name:'NestJS',icon:'🦅',color:'#E0234E',fact:'Modular backends'},
+  {name:'Grafana',icon:'📊',color:'#F46800',fact:'40K records/day'},
+];
+const BUGS=['🪲','🪳','🦟','🦗'];
+const gEl=document.getElementById('game');
+const floor=document.getElementById('g-floor');
+const crackCv=document.getElementById('g-cracks');
+const crackCtx=crackCv.getContext('2d');
+const overlay=document.getElementById('g-overlay');
+const tray=document.getElementById('g-tray');
+const comboEl=document.getElementById('g-combo');
+let lives=3,score=0,squashed=0,gameOn=false,spawnT,speedT,timerT;
+let spd=1.2,spawnRate=2200,maxBugs=4,skillsLeft=[],unlocked=[];
+let lastSq=0,combo=0;
+
+function rnd(a,b){return a+Math.random()*(b-a);}
+function resizeCrack(){crackCv.width=floor.offsetWidth;crackCv.height=floor.offsetHeight;}
+
+function updateHud(){
+  document.getElementById('g-score').textContent=score;
+  document.getElementById('g-squashed').textContent=squashed;
+  document.querySelectorAll('.g-life').forEach((l,i)=>l.classList.toggle('dead',i>=lives));
+}
+
+function spawnBug(){
+  if(!gameOn)return;
+  if(floor.querySelectorAll('.bug').length>=maxBugs)return;
+  const fw=floor.offsetWidth,fh=floor.offsetHeight;
+  const sides=['top','bottom','left','right'],side=sides[Math.floor(Math.random()*4)];
+  let x,y,tx,ty;
+  if(side==='top'){x=rnd(20,fw-20);y=-30;tx=rnd(20,fw-20);ty=rnd(fh*.25,fh*.75);}
+  else if(side==='bottom'){x=rnd(20,fw-20);y=fh+30;tx=rnd(20,fw-20);ty=rnd(fh*.25,fh*.75);}
+  else if(side==='left'){x=-30;y=rnd(20,fh-20);tx=rnd(fw*.25,fw*.75);ty=rnd(20,fh-20);}
+  else{x=fw+30;y=rnd(20,fh-20);tx=rnd(fw*.25,fw*.75);ty=rnd(20,fh-20);}
+  const el=document.createElement('div');
+  el.className='bug';
+  el.textContent=BUGS[Math.floor(Math.random()*BUGS.length)];
+  el.style.cssText=`left:${x}px;top:${y}px;cursor:pointer;font-size:28px;position:absolute;z-index:10;transition:filter .1s`;
+  let bx=x,by=y,escaped=false,wobT=Math.random()*100,wobAmp=rnd(6,18);
+  const s=spd*(0.75+Math.random()*.6);
+  const dist=Math.sqrt((tx-x)**2+(ty-y)**2);
+  const nx=(tx-x)/dist,ny=(ty-y)/dist;
+  const tick=setInterval(()=>{
+    if(!gameOn){clearInterval(tick);el.remove();return;}
+    wobT+=0.09;
+    bx+=nx*s+(-ny)*Math.sin(wobT)*wobAmp*.09;
+    by+=ny*s+nx*Math.sin(wobT)*wobAmp*.09;
+    el.style.left=bx+'px';el.style.top=by+'px';
+    if(bx<-60||bx>fw+60||by<-60||by>fh+60){
+      if(!escaped){escaped=true;bugEscaped(el,tick);}
+    }
+  },16);
+  el.addEventListener('click',()=>{if(!escaped&&gameOn){clearInterval(tick);bugSquashed(el,bx,by);}});
+  floor.appendChild(el);
+}
+
+function bugSquashed(el,bx,by){
+  el.remove();
+  drawCrack(bx,by);
+  const fx=document.createElement('div');fx.className='squash-fx';fx.textContent='💥';
+  fx.style.cssText=`left:${bx}px;top:${by}px;position:absolute;pointer-events:none;z-index:15;font-size:32px`;
+  floor.appendChild(fx);setTimeout(()=>fx.remove(),600);
+  const now=Date.now();
+  combo=(now-lastSq<1500)?combo+1:1;lastSq=now;
+  score+=10*combo;squashed++;
+  if(combo>1){comboEl.textContent=`x${combo} COMBO! +${10*combo}pts`;comboEl.style.opacity='1';setTimeout(()=>comboEl.style.opacity='0',1200);}
+  addRipple(bx,by);
+  floatTxt(bx,by,'+'+(10*combo)+' ✦','#6ee7c0');
+  if(skillsLeft.length>0){
+    const si=Math.floor(Math.random()*skillsLeft.length);
+    const sk=skillsLeft.splice(si,1)[0];unlocked.push(sk);
+    showSkillPop(bx,by,sk);addBadge(sk);
+  }
+  updateHud();
+  if(squashed>=SKILLS.length)setTimeout(()=>endGame(true),400);
+}
+
+function bugEscaped(el,tick){
+  clearInterval(tick);el.remove();lives--;updateHud();
+  const f=document.createElement('div');f.className='miss-flash';f.style='position:absolute;inset:0;pointer-events:none;z-index:25';
+  gEl.appendChild(f);setTimeout(()=>f.remove(),400);
+  if(lives<=0)setTimeout(()=>endGame(false),300);
+}
+
+function drawCrack(cx,cy){
+  crackCtx.strokeStyle='rgba(255,255,255,.1)';crackCtx.lineWidth=1;
+  for(let i=0;i<6;i++){
+    const a=Math.random()*Math.PI*2,len=15+Math.random()*30;
+    crackCtx.beginPath();crackCtx.moveTo(cx,cy);
+    const ex=cx+Math.cos(a)*len,ey=cy+Math.sin(a)*len;
+    crackCtx.lineTo(ex,ey);
+    if(Math.random()>.5)crackCtx.lineTo(ex+Math.cos(a+rnd(-.8,.8))*rnd(5,18),ey+Math.sin(a+rnd(-.8,.8))*rnd(5,18));
+    crackCtx.stroke();
+  }
+}
+
+function addRipple(x,y){
+  const r=document.createElement('div');r.className='ripple-ring';
+  r.style.cssText=`left:${x}px;top:${y}px;border-color:#6ee7c0;position:absolute`;
+  floor.appendChild(r);setTimeout(()=>r.remove(),800);
+}
+
+function floatTxt(x,y,txt,color){
+  const f=document.createElement('div');f.className='float-txt';
+  f.style.cssText=`left:${x}px;top:${y}px;color:${color};position:absolute`;
+  f.textContent=txt;floor.appendChild(f);setTimeout(()=>f.remove(),1200);
+}
+
+function showSkillPop(x,y,sk){
+  const p=document.createElement('div');p.className='skill-pop';
+  p.style.cssText=`left:${x}px;top:${y}px;position:absolute`;
+  p.innerHTML=`<div class="skill-pop-inner" style="background:rgba(8,8,24,.95);border:1px solid ${sk.color}55;border-radius:10px;padding:8px 14px;text-align:center;white-space:nowrap"><div style="font-size:22px">${sk.icon}</div><div style="font-size:13px;font-weight:800;color:#fff;margin-top:2px">${sk.name}</div><div style="font-size:10px;color:${sk.color};margin-top:1px">${sk.fact}</div></div>`;
+  floor.appendChild(p);setTimeout(()=>p.remove(),950);
+}
+
+function addBadge(sk){
+  document.getElementById('g-tray-hint')&&document.getElementById('g-tray-hint').remove();
+  const b=document.createElement('div');b.className='g-badge';
+  b.style.cssText=`color:${sk.color};border-color:${sk.color}55;background:${sk.color}11`;
+  b.innerHTML=`${sk.icon} ${sk.name}`;tray.appendChild(b);
+}
+
+function startGame(){
+  lives=3;score=0;squashed=0;combo=0;spd=1.2;spawnRate=2200;maxBugs=4;
+  skillsLeft=[...SKILLS];unlocked=[];gameOn=true;
+  floor.querySelectorAll('.bug,.squash-fx,.skill-pop,.float-txt,.ripple-ring').forEach(e=>e.remove());
+  tray.innerHTML='<span id="g-tray-hint" style="font-size:11px;color:rgba(255,255,255,.2);font-style:italic">squash bugs to unlock skills...</span>';
+  resizeCrack();crackCtx.clearRect(0,0,crackCv.width,crackCv.height);
+  overlay.style.display='none';updateHud();
+  clearInterval(spawnT);clearInterval(speedT);clearInterval(timerT);
+  spawnBug();spawnT=setInterval(()=>{if(gameOn)spawnBug();},spawnRate);
+  speedT=setInterval(()=>{
+    if(!gameOn)return;
+    spd=Math.min(spd+.18,3.5);spawnRate=Math.max(spawnRate-130,850);maxBugs=Math.min(maxBugs+1,9);
+    clearInterval(spawnT);spawnT=setInterval(()=>{if(gameOn)spawnBug();},spawnRate);
+  },7000);
+  let tLeft=60;
+  document.getElementById('g-ttxt').textContent=tLeft+'s';
+  document.getElementById('g-tbar').style.width='100%';
+  document.getElementById('g-tbar').style.background='#6ee7c0';
+  timerT=setInterval(()=>{
+    if(!gameOn){clearInterval(timerT);return;}
+    tLeft--;
+    document.getElementById('g-ttxt').textContent=tLeft+'s';
+    document.getElementById('g-tbar').style.width=(tLeft/60*100)+'%';
+    if(tLeft<=10)document.getElementById('g-tbar').style.background='#ef4444';
+    if(tLeft<=0){clearInterval(timerT);endGame(false);}
+  },1000);
+}
+
+function endGame(won){
+  gameOn=false;clearInterval(spawnT);clearInterval(speedT);clearInterval(timerT);
+  floor.querySelectorAll('.bug').forEach(e=>e.remove());
+  overlay.style.display='flex';
+  overlay.innerHTML=`
+    <div style="font-size:56px">${won?'🏆':'💀'}</div>
+    <h3 style="font-size:22px;font-weight:900;color:#fff;margin:10px 0 4px">${won?'All bugs squashed!':'The bugs escaped.'}</h3>
+    <div class="g-score-big">${score} pts</div>
+    <p style="font-size:13px;color:rgba(255,255,255,.4);max-width:280px;line-height:1.6;margin-bottom:14px">${won?'You found every skill. Impressive focus.':'Unlocked '+squashed+' of 12 skills. The bugs are still out there.'}</p>
+    ${unlocked.length?`<div class="g-final-skills">${unlocked.map(s=>`<span style="display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:100px;border:1px solid ${s.color}44;background:${s.color}11;color:${s.color};font-size:11px;font-weight:700">${s.icon} ${s.name}</span>`).join('')}</div>`:''}
+    <button class="g-start-btn" onclick="window.__startBugGame()">Play again 🪲</button>
+  `;
+}
+window.__startBugGame=startGame;
+document.getElementById('g-startbtn').addEventListener('click',startGame);
+resizeCrack();
+})();
 
 /* ── Contact Form ── */
 function submitForm() {
